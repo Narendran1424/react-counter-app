@@ -1,0 +1,156 @@
+
+.counter-container{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aquamarine;
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.counter-title{
+    text-align: center;
+    font-size: 3.5em;
+    color: blueviolet;
+   /* color: rgb(106, 9, 197); */
+   /* color: hsl(120, 100%, 58%); */
+    color: rgb(255, 0, 153,0.9);
+}
+.count-display{
+    font-size: 10em;
+    margin-top: 0;
+    margin-bottom: 50px;
+    /* color: black; */
+    /* color: hsl(120, 100%, 58%); */
+    color: rgb(253, 163, 53);
+}
+.counter-button{
+    width: 150px;
+    height: 50px;
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-left:  5px;
+    margin-right: 5px;
+    margin-bottom: 25px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.increment{
+    background-color: darkgreen;
+    border: 4px solid rgb(53, 171, 53);
+}
+.decrement{
+    background-color: red;
+    border: 4px solid hsl(0, 71%, 70%);
+}
+.reset{
+    background-color: black;
+    border: 4px solid hsl(240, 0%, 45%);
+}
+
+/* .decrement:hover{
+    background-color: rgba(255, 0, 0,0.8);
+    border: 4px solid hsl(0, 100%, 51%);
+}
+.reset:hover{
+    background-color: rgb(68, 47, 47);
+    border: 4px solid hsl(0, 5%, 8%);
+} */
+
+@media screen and (max-width:900px) {
+    .counter-container{
+        margin-top: 10vh;
+        border: 4px solid black;
+        height: 80vh;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+}
+@media screen and (max-width:720px) {
+    .counter-title{
+        font-size: 3em;
+    }
+    .count-display{
+        font-size: 10em;
+    }
+    .counter-button{
+        width: 130px;
+        height: 50px;
+        font-size: 1em;
+        margin: 20px 5px;
+    }
+    
+}
+@media screen and (max-width:480px) {
+    .counter-title{
+        font-size: 2.5em;
+    }
+    .count-display{
+        font-size: 6em;
+    }
+    .counter-button{
+        width: 110px;
+        height: 45px;
+        font-size: 0.8em;
+    }
+    
+}
+@media screen and (max-width:430px) {
+    .counter-title{
+        text-align: center;
+        font-size: 2.3em;
+    }
+    .count-display{
+        font-size: 6em;
+    }
+    .counter-button{
+        width: 95px;
+        height: 45px;
+        font-size: 0.8em;
+    }
+    
+}
+@media screen and (max-width:380px) {
+    .counter-title{
+        font-size: 2.2em;
+    }
+    .count-display{
+        font-size: 6em;
+    }
+    .counter-button{
+        width: 90px;
+        height: 45px;
+        font-size: 0.8em;
+    }
+    
+}
+@media screen and (max-width:360px) {
+    .counter-title{
+        font-size: 2.1em;
+    }
+    .count-display{
+        font-size: 6em;
+    }
+    .counter-button{
+        width: 80px;
+        height: 40px;
+        font-size: 0.7em;
+    }
+    
+}
+
+@media screen and (max-width:340px) {
+    .counter-title{
+        font-size: 2em;
+    }
+    .count-display{
+        font-size: 8em;
+    }
+    .counter-button{
+        width: 84px;
+        height: 35px;
+        font-size: 0.78em;
+        margin: 0px 4px;
+    }
+    
+}
